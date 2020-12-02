@@ -1,7 +1,7 @@
 #coding:utf-8
 
 class Config(object):
-    DEBUG = False
+    DEBUG = True
     SECRET_KEY = 'this is secret string'
 
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
@@ -13,7 +13,7 @@ class Config(object):
     ERROR_LOG = "../logs/error.log"
     INFO_LOG = "../logs/info.log"
 
-    DB_PREFIX = "bb_"
+    DB_PREFIX = "wadebook_"
     PER_PAGE = 20
 
     STATIC_IMG_PATH = "img"

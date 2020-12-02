@@ -70,7 +70,7 @@ function Catalog(bookeditor, editor, options){
     _this.editor = editor;
     var catalog_html = [
         '<div class="book-catalog-wraper" id="book-catalog-wraper">',
-            '<div class="book-catalog-head">书籍目录</div>',
+            '<div class="book-catalog-head">分享目录</div>',
             '<div class="book-catalog-body" id="book-catalog-body">',
                 '<div class="book-catalog-group" id="book-catalog-group">',
                 '</div>',

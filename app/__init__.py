@@ -82,7 +82,7 @@ def create_app():
     login_manager.login_view = "admin.login"
     login_manager.login_message = "请先登录!!!"
 
-    from app.log  import init_logging
+    from app.log import init_logging
     init_logging(app)
 
     return app

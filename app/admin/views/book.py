@@ -65,4 +65,7 @@ def catalog_change(id):
     return redirect(url_for("admin.book_edit", id=catalog.book_id))
 
 
+@admin.errorhandler(404)
+def page_not_found():
+    return render_template('404.html'), 404
 

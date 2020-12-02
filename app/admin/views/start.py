@@ -10,7 +10,7 @@ from app.includes.start import *
 def setup_step2():
     form = ConfigForm()
     if form.validate_on_submit():
-        host= form.host.data
+        host = form.host.data
         username = form.username.data
         password = form.password.data
         db_name = form.db.data
